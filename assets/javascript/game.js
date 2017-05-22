@@ -46,7 +46,7 @@ $(document).ready(function(){
 			randomNumber();
 
 			//Display new values of variables
-			document.querySelector('#lose').innerHTML = lossCounter;
+			document.querySelector('#lose').innerHTML = " " + lossCounter;
 			document.querySelector('#currentScore').innerHTML = currentScore;
 			document.querySelector('#winLose').innerHTML = "You Lost!!!";
 			//Make sure method works
@@ -70,7 +70,7 @@ $(document).ready(function(){
 
 			//Display new values of variables
 			document.querySelector('#currentScore').innerHTML = currentScore;			
-			document.querySelector('#win').innerHTML = winCounter;
+			document.querySelector('#win').innerHTML = " " + winCounter;
 			document.querySelector('#winLose').innerHTML = "You Won!!!";
 			document.querySelector('#ranNum').innerHTML = randomNumber();
 		}
